@@ -1,7 +1,10 @@
 library go_router_cola_annotation;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+export 'src/cola_route_builder.dart';
+export 'src/cola_route_data.dart';
+export 'src/cola_router_state.dart';
+export 'src/cola_shell_route_builder.dart';
+
+extension ObjectCastExtension on Object {
+  T? cast<T>() => (this is T) ? this as T : null;
 }

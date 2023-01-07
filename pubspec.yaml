@@ -1,6 +1,6 @@
 name: go_router_cola_annotation
 description: A new Flutter package project.
-version: 0.0.1
+version: 0.0.2
 # homepage:
 
 environment:
@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
 
   meta: ^1.8.0
-  go_router: ^5.1.0
+  go_router: ^6.0.1
 
 dev_dependencies:
   flutter_test:
